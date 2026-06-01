@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-5-storage-prerender-bug",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "start": "node .output/server/index.mjs",
+    "clean": "npx nuxi cleanup",
+    "reprex:build": "pnpm install && pnpm build",
+    "reprex:start": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "nitro": "latest",
+    "nuxt": "npm:nuxt-nightly@5x"
+  },
+  "volta": {
+    "node": "22.20.0"
+  }
+}
