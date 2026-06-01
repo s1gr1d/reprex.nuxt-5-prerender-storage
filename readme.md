@@ -1,5 +1,7 @@
 # Nuxt 5 / Nitro 3 prerender build failure (`#nitro/virtual/storage`)
 
+> Reported in https://github.com/nuxt/nuxt/issues/35247
+
 ## Problem Statement
 
 Building the Nuxt 5 (nightly) app fails during the **prerender** step with an
